@@ -226,9 +226,9 @@ st.markdown(
                   box-shadow:0 3px 8px rgba(0,0,0,.25); }}
       .kpi-lab {{ color:#6b6b6b; font-size:.72rem; font-weight:600; letter-spacing:.06em;
                   text-transform:uppercase; }}
-      .kpi-val {{ color:#0e3610; font-size:2.1rem; font-weight:800; line-height:1.1; }}
+      .kpi-val {{ color:{FOND}; font-size:2.1rem; font-weight:800; line-height:1.1; }}
       .kpi-moy {{ color:#6b6b6b; font-size:.8rem; margin-top:2px; }}
-      .kpi-moy b {{ color:#0e3610; font-weight:800; font-size:.95rem; padding-left:4px; }}
+      .kpi-moy b {{ color:{FOND}; font-weight:800; font-size:.95rem; padding-left:4px; }}
 
       .hero {{ font-family:'Poppins',sans-serif; margin:6px 0 18px 0; display:flex; align-items:center; gap:20px; }}
       .hero .hero-logo {{ height:84px; width:auto; flex:none; filter:drop-shadow(0 2px 10px rgba(0,0,0,.35)); }}
@@ -402,7 +402,7 @@ st.markdown(
                     background:var(--c); display:flex; align-items:center; justify-content:center;
                     box-shadow:0 3px 8px rgba(0,0,0,.25); }}
       .pod-card.p1 .pod-medal {{ width:78px; height:78px; }}
-      .pod-nom {{ color:#0e3610; font-weight:800; font-style:italic; text-transform:uppercase;
+      .pod-nom {{ color:{FOND}; font-weight:800; font-style:italic; text-transform:uppercase;
                   font-size:.88rem; line-height:1.15; overflow-wrap:anywhere;
                   display:-webkit-box; -webkit-line-clamp:2; -webkit-box-orient:vertical; overflow:hidden; }}
       .pod-card.p1 .pod-nom {{ font-size:1rem; }}
@@ -411,7 +411,7 @@ st.markdown(
                    display:-webkit-box; -webkit-line-clamp:2; -webkit-box-orient:vertical; overflow:hidden; }}
       .pod-meta {{ color:#6b6b6b; font-size:.75rem; margin-top:4px; }}
       .pod-meta i {{ color:{BLEU}; font-style:normal; font-weight:600; padding:0 2px; }}
-      .pod-temps {{ color:#0e3610; font-weight:800; font-size:1.25rem; margin-top:10px; }}
+      .pod-temps {{ color:{FOND}; font-weight:800; font-size:1.25rem; margin-top:10px; }}
       .pod-card.p1 .pod-temps {{ font-size:1.5rem; }}
       div[data-testid="stPlotlyChart"] {{ background:white; border-radius:0 0 10px 10px; }}
 
@@ -433,14 +433,14 @@ st.markdown(
       .st-key-suivi div[data-testid="stPlotlyChart"] {{ background:transparent; border-radius:0; }}
       .st-key-recherche, .st-key-recherche_choix {{ background:rgba(51,51,51,.62); backdrop-filter:blur(4px);
                                                   border-radius:12px; padding:14px 18px 6px 18px; }}
-      .st-key-recherche input {{ background:#fff; color:#0e3610; }}
+      .st-key-recherche input {{ background:#fff; color:{FOND}; }}
 
       .fiche {{ font-family:'Poppins',sans-serif; color:#fff; margin:4px 0 2px 0; text-align:center; }}
       .fiche .n {{ font-size:1.5rem; font-weight:800; font-style:italic; text-transform:uppercase; line-height:1.1; }}
       .fiche .m {{ color:rgba(255,255,255,.7); font-size:.85rem; margin-top:2px; }}
 
       .kpi-det {{ color:#6b6b6b; font-size:.8rem; margin-top:2px; }}
-      .kpi-det b {{ color:#0e3610; font-weight:800; }}
+      .kpi-det b {{ color:{FOND}; font-weight:800; }}
 
       .st-key-export_carte:has(button) {{ display:flex; flex-direction:column; align-items:flex-end; position:relative;z-index:5; margin-bottom:-4.68rem; pointer-events:none; }}
       [data-testid="stLayoutWrapper"]:has(> .st-key-export_carte) {{ margin-bottom:-1rem; }}

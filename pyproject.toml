@@ -1,7 +1,7 @@
 [project]
-name = "Statistiques-20kmcotegranitrose-app"
+name = "blank-app-template"
 version = "0.1.0"
-description = "20km de la Côte de Granit Rose"
+description = "A simple Streamlit app template."
 readme = "README.md"
 requires-python = ">=3.14"
 dependencies = [
